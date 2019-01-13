@@ -6,12 +6,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>  Romil - The Gangstu</h1>
-        <p>Gangstu is an anonymous word which can be defined by anyone</p>
-        <Person name="Romil" age="21" />
+        <h1>  Hello Romil !</h1>
+        <p>WELCOME TO REACT!</p>
+        <Person name="Romil" age="21" >My hobbies are: Dancing!</Person>
         <Person name="Mayank" age="22">My hobbies are: NOTHING!</Person>
         <Person name="Saurav" age="27" />
       </div>
+
     );
   } 
 }
