@@ -1,7 +1,7 @@
 import React from 'react';
 
-const person = () => {
-	return <p> Romil M Shah vese efe lexi co and he is {Math.floor(Math.random() * 30)} years old </p>
+const person = (props) => {
+	return <p> This is {props.name} and I am {props.age} years old </p>
 };
 
 
